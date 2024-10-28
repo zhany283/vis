@@ -1,0 +1,896 @@
+{
+  "fileVersions": {
+    "inMeta": {
+      "fname": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/v2_SC678_SC679_SC905_SC1186_integration-metadata.csv",
+      "md5": "63d2272a87",
+      "size": 9866853,
+      "mtime": "2024-10-27 21:28:41"
+    },
+    "colors:Type": {
+      "fname": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/v2_cellbrowser/Type_colors.tsv",
+      "md5": "2559f94373",
+      "size": 37,
+      "mtime": "2024-10-27 21:28:40"
+    },
+    "colors:Sample": {
+      "fname": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/v2_cellbrowser/Sample_colors.tsv",
+      "md5": "4cebca9fe0",
+      "size": 779,
+      "mtime": "2024-10-27 21:28:40"
+    },
+    "colors:leiden_scVI": {
+      "fname": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/v2_cellbrowser/leiden_scVI_colors.tsv",
+      "md5": "ae0c6d7c15",
+      "size": 210,
+      "mtime": "2024-10-27 21:28:40"
+    },
+    "colors:leiden_scVI_2": {
+      "fname": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/v2_cellbrowser/leiden_scVI_2_colors.tsv",
+      "md5": "ae0c6d7c15",
+      "size": 210,
+      "mtime": "2024-10-27 21:28:40"
+    },
+    "outMeta": {
+      "fname": "/home/zyu2632/public_html/cells/v2_cellbrowser/meta.tsv",
+      "md5": "eb959f9f97",
+      "size": 9737896,
+      "mtime": "2024-10-28 04:06:29"
+    },
+    "inMatrix": {
+      "fname": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/matrix.mtx.gz",
+      "md5": "78dc84a8a1",
+      "size": 29798629,
+      "mtime": "2024-10-27 21:28:39"
+    },
+    "barcodes": {
+      "fname": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/barcodes.tsv.gz",
+      "md5": "a2e2b58f2f",
+      "size": 317145,
+      "mtime": "2024-10-27 21:28:25"
+    },
+    "features": {
+      "fname": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/features.tsv.gz",
+      "md5": "2dcf287815",
+      "size": 7171,
+      "mtime": "2024-10-27 21:28:25"
+    },
+    "outMatrix": {
+      "fname": "/home/zyu2632/public_html/cells/v2_cellbrowser/matrix.mtx.gz",
+      "md5": "78dc84a8a1",
+      "size": 29798629,
+      "mtime": "2024-10-28 04:06:31"
+    },
+    "desc": {
+      "fname": "desc.conf",
+      "md5": "0d31268ff0",
+      "size": 2712,
+      "mtime": "2024-10-27 21:28:41"
+    },
+    "conf": {
+      "fname": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/cellbrowser.conf",
+      "md5": "d17b65fc79",
+      "size": 1456,
+      "mtime": "2024-10-27 23:20:20"
+    }
+  },
+  "sampleCount": 64472,
+  "matrixWasFiltered": false,
+  "metaFields": [
+    {
+      "name": "cell_id",
+      "label": "cell_id",
+      "type": "uniqueString",
+      "maxSize": 46,
+      "diffValCount": 64472,
+      "md5": "7dfcedc215"
+    },
+    {
+      "name": "Patient",
+      "label": "Patient",
+      "type": "enum",
+      "valCounts": [
+        [
+          "2042",
+          11498
+        ],
+        [
+          "1697",
+          10932
+        ],
+        [
+          "2074",
+          4078
+        ],
+        [
+          "LT184LUL01",
+          3650
+        ],
+        [
+          "LT121R",
+          2883
+        ],
+        [
+          "LT181L",
+          2619
+        ],
+        [
+          "2050",
+          2595
+        ],
+        [
+          "2072",
+          2319
+        ],
+        [
+          "LT205LUL",
+          2294
+        ],
+        [
+          "LT236LUL",
+          2277
+        ],
+        [
+          "S16",
+          2136
+        ],
+        [
+          "2055",
+          1741
+        ],
+        [
+          "LT122RML",
+          1704
+        ],
+        [
+          "2054",
+          1567
+        ],
+        [
+          "S17",
+          1500
+        ],
+        [
+          "S14",
+          1499
+        ],
+        [
+          "LT184LUL02",
+          1278
+        ],
+        [
+          "S15",
+          1251
+        ],
+        [
+          "2027",
+          1163
+        ],
+        [
+          "2070",
+          1082
+        ],
+        [
+          "2094",
+          1016
+        ],
+        [
+          "03132023",
+          771
+        ],
+        [
+          "0317202302",
+          516
+        ],
+        [
+          "LT226LUL",
+          411
+        ],
+        [
+          "2075",
+          399
+        ],
+        [
+          "0317202303",
+          373
+        ],
+        [
+          "0317202301",
+          356
+        ],
+        [
+          "LT243L",
+          306
+        ],
+        [
+          "2060",
+          95
+        ],
+        [
+          "2043",
+          62
+        ],
+        [
+          "LT236LLL",
+          49
+        ],
+        [
+          "LT121L",
+          45
+        ],
+        [
+          "2022",
+          7
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 33,
+      "md5": "a859c1ab9c"
+    },
+    {
+      "name": "Days",
+      "label": "Days",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 4,
+      "md5": "c7ad971b50"
+    },
+    {
+      "name": "Type",
+      "label": "Type",
+      "type": "enum",
+      "colors": [
+        "4c72b0",
+        "dd8452"
+      ],
+      "valCounts": [
+        [
+          "BAL",
+          42542
+        ],
+        [
+          "blood",
+          21930
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 2,
+      "md5": "54d6515ec7"
+    },
+    {
+      "name": "Sample",
+      "label": "Sample",
+      "type": "enum",
+      "colors": [
+        "008941",
+        "ffff00",
+        "004d43",
+        "1ce6ff",
+        "61615a",
+        "3b5dff",
+        "ff2f80",
+        "a30059",
+        "b79762",
+        "6b7900",
+        "ff90c9",
+        "000035",
+        "7a4900",
+        "4a3b53",
+        "ffdbe5",
+        "7b4f4b",
+        "d16100",
+        "ba0900",
+        "ddefff",
+        "ff4a46",
+        "63ffac",
+        "997d87",
+        "5a0007",
+        "6a3a4c",
+        "00c2a0",
+        "8fb0ff",
+        "1b4400",
+        "809693",
+        "b903aa",
+        "0000a6",
+        "006fa6",
+        "ffaa92",
+        "4fc601",
+        "ff34ff"
+      ],
+      "valCounts": [
+        [
+          "2042_00_BAL",
+          11498
+        ],
+        [
+          "1697_00_BAL",
+          7189
+        ],
+        [
+          "2074_00_blood",
+          4078
+        ],
+        [
+          "1697_00_blood",
+          3743
+        ],
+        [
+          "LT184LUL01_01_BAL",
+          3650
+        ],
+        [
+          "LT121R_00_BAL",
+          2883
+        ],
+        [
+          "LT181L_00_BAL",
+          2619
+        ],
+        [
+          "2050_00_BAL",
+          2595
+        ],
+        [
+          "2072_00_blood",
+          2319
+        ],
+        [
+          "LT205LUL_00_BAL",
+          2294
+        ],
+        [
+          "LT236LUL_00_BAL",
+          2277
+        ],
+        [
+          "S16_00_blood",
+          2136
+        ],
+        [
+          "2055_00_BAL",
+          1741
+        ],
+        [
+          "LT122RML_00_BAL",
+          1704
+        ],
+        [
+          "2054_00_blood",
+          1567
+        ],
+        [
+          "S17_00_blood",
+          1500
+        ],
+        [
+          "S14_00_blood",
+          1499
+        ],
+        [
+          "LT184LUL02_01_BAL",
+          1278
+        ],
+        [
+          "S15_00_blood",
+          1251
+        ],
+        [
+          "2027_00_BAL",
+          1163
+        ],
+        [
+          "2070_00_blood",
+          1082
+        ],
+        [
+          "2094_01_blood",
+          1016
+        ],
+        [
+          "03132023_00_BAL",
+          771
+        ],
+        [
+          "0317202302_01_blood",
+          516
+        ],
+        [
+          "LT226LUL_00_BAL",
+          411
+        ],
+        [
+          "2075_00_blood",
+          399
+        ],
+        [
+          "0317202303_00_blood",
+          373
+        ],
+        [
+          "0317202301_01_blood",
+          356
+        ],
+        [
+          "LT243L_00_BAL",
+          306
+        ],
+        [
+          "2060_41_blood",
+          95
+        ],
+        [
+          "2043_00_BAL",
+          62
+        ],
+        [
+          "LT236LLL_00_BAL",
+          49
+        ],
+        [
+          "LT121L_00_BAL",
+          45
+        ],
+        [
+          "2022_15_BAL",
+          7
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 34,
+      "md5": "11680bebf2"
+    },
+    {
+      "name": "n_genes_by_counts",
+      "label": "n_genes_by_counts",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 5200,
+      "md5": "78ef487fff"
+    },
+    {
+      "name": "total_counts",
+      "label": "total_counts",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 8670,
+      "md5": "f5af60cdec"
+    },
+    {
+      "name": "total_counts_MT",
+      "label": "total_counts_MT",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 445,
+      "md5": "e863b6086a"
+    },
+    {
+      "name": "pct_counts_MT",
+      "label": "pct_counts_MT",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 13145,
+      "md5": "c1048ee60f"
+    },
+    {
+      "name": "library",
+      "label": "library",
+      "type": "enum",
+      "valCounts": [
+        [
+          "sc905",
+          29654
+        ],
+        [
+          "sc1186",
+          16942
+        ],
+        [
+          "sc678",
+          12888
+        ],
+        [
+          "sc679",
+          4988
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 4,
+      "md5": "8202862939"
+    },
+    {
+      "name": "n_counts",
+      "label": "n_counts",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 8604,
+      "md5": "58da1f38c5"
+    },
+    {
+      "name": "n_genes",
+      "label": "n_genes",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 5153,
+      "md5": "efdb9b2cbe"
+    },
+    {
+      "name": "_scvi_batch",
+      "label": "_scvi_batch",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 4,
+      "md5": "c6037afe7f"
+    },
+    {
+      "name": "_scvi_local_l_mean",
+      "label": "_scvi_local_l_mean",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 4,
+      "md5": "af55f8f14b"
+    },
+    {
+      "name": "_scvi_local_l_var",
+      "label": "_scvi_local_l_var",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 4,
+      "md5": "2afaa8d8bb"
+    },
+    {
+      "name": "leiden_scVI",
+      "label": "leiden_scVI",
+      "type": "enum",
+      "colors": [
+        "1f77b4",
+        "ff7f0e",
+        "279e68",
+        "d62728",
+        "aa40fc",
+        "8c564b",
+        "e377c2",
+        "b5bd61",
+        "17becf",
+        "aec7e8",
+        "ffbb78",
+        "98df8a",
+        "ff9896",
+        "c5b0d5",
+        "c49c94",
+        "f7b6d2",
+        "dbdb8d",
+        "9edae5",
+        "ad494a"
+      ],
+      "valCounts": [
+        [
+          "0",
+          8178
+        ],
+        [
+          "1",
+          7764
+        ],
+        [
+          "2",
+          7642
+        ],
+        [
+          "3",
+          4709
+        ],
+        [
+          "4",
+          4570
+        ],
+        [
+          "5",
+          4259
+        ],
+        [
+          "6",
+          3396
+        ],
+        [
+          "7",
+          3359
+        ],
+        [
+          "8",
+          3271
+        ],
+        [
+          "9",
+          3252
+        ],
+        [
+          "10",
+          2592
+        ],
+        [
+          "11",
+          2446
+        ],
+        [
+          "12",
+          2416
+        ],
+        [
+          "13",
+          2159
+        ],
+        [
+          "14",
+          1754
+        ],
+        [
+          "15",
+          1459
+        ],
+        [
+          "16",
+          903
+        ],
+        [
+          "17",
+          204
+        ],
+        [
+          "18",
+          139
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 19,
+      "md5": "52774ebcfa"
+    },
+    {
+      "name": "leiden_scVI_2",
+      "label": "leiden_scVI_2",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 19,
+      "md5": "7ff93dbc97"
+    }
+  ],
+  "matrixArrType": "Float32",
+  "labelField": "leiden_scVI",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "UMAP",
+      "md5": "c7be854437",
+      "minX": -4.1387453,
+      "maxX": 7.8961916,
+      "minY": 0.69696367,
+      "maxY": 14.073443,
+      "type": "Float32",
+      "textFname": "UMAP.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    },
+    {
+      "name": "coords_1",
+      "shortLabel": "scVI",
+      "md5": "5ec11ae5e8",
+      "minX": -2.4989831,
+      "maxX": 1.8281329,
+      "minY": -2.3571093,
+      "maxY": 3.5953891,
+      "type": "Float32",
+      "textFname": "scVI.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "hasFiles": [
+    "datasetDesc"
+  ],
+  "topMarkers": {
+    "0": [
+      "SAT1",
+      "ATG16L2",
+      "DOCK5",
+      "MMP25",
+      "APOBEC3A"
+    ],
+    "1": [
+      "S100A8",
+      "S100A9",
+      "IL1R2",
+      "CD177",
+      "MMP9"
+    ],
+    "2": [
+      "IL32",
+      "TRBC2",
+      "ZAP70",
+      "TRAC",
+      "CCL5"
+    ],
+    "3": [
+      "LYZ",
+      "S100A9",
+      "S100A8",
+      "CD74",
+      "NRGN"
+    ],
+    "4": [
+      "CD74",
+      "LMNA",
+      "APOE",
+      "HSPB1",
+      "INHBA"
+    ],
+    "5": [
+      "SQSTM1",
+      "PLAU",
+      "G0S2",
+      "PI3",
+      "CXCL8"
+    ],
+    "6": [
+      "PLAUR",
+      "G0S2",
+      "ALPL",
+      "CXCL8",
+      "IL1RN"
+    ],
+    "7": [
+      "CD74",
+      "LMNA",
+      "LYZ",
+      "ABCG1",
+      "APOE"
+    ],
+    "8": [
+      "G0S2",
+      "CXCL8",
+      "PLAUR",
+      "IL1RN",
+      "S100A9"
+    ],
+    "9": [
+      "G0S2",
+      "SAT1",
+      "ADGRG3",
+      "IRF7",
+      "IL1R2"
+    ],
+    "10": [
+      "PLTP",
+      "ODF3B",
+      "IRF7",
+      "CD74",
+      "ADM"
+    ],
+    "11": [
+      "TIMP1",
+      "LYZ",
+      "THBS1",
+      "IL1B",
+      "SPHK1"
+    ],
+    "12": [
+      "S100A8",
+      "S100A9",
+      "G0S2",
+      "PROK2",
+      "IL1R2"
+    ],
+    "13": [
+      "MT-CO1",
+      "MT-CO3",
+      "MT-CO2",
+      "MT-ATP6",
+      "MT-ND4"
+    ],
+    "14": [
+      "HSPA1A",
+      "HSPA1B",
+      "HSP90AA1",
+      "DNAJB1",
+      "G0S2"
+    ],
+    "15": [
+      "HSP90AA1",
+      "TIMP1",
+      "NR4A1",
+      "HSPA1A",
+      "HSPA1B"
+    ],
+    "16": [
+      "CD74",
+      "IGHM",
+      "MT-ND6",
+      "NIBAN3",
+      "CD79A"
+    ],
+    "17": [
+      "CLU",
+      "GP1BB",
+      "PPBP",
+      "ELF3",
+      "NRGN"
+    ],
+    "18": [
+      "RGCC",
+      "S100A8",
+      "LTF",
+      "S100A9",
+      "AZU1"
+    ]
+  },
+  "markers": [
+    {
+      "name": "markers_0",
+      "shortLabel": "Cluster Markers"
+    }
+  ],
+  "quickGenes": [
+    [
+      "SAT1",
+      "0"
+    ],
+    [
+      "S100A8",
+      "1, 12"
+    ],
+    [
+      "IL32",
+      "2"
+    ],
+    [
+      "LYZ",
+      "3"
+    ],
+    [
+      "CD74",
+      "4, 7, 16"
+    ],
+    [
+      "SQSTM1",
+      "5"
+    ],
+    [
+      "PLAUR",
+      "6"
+    ],
+    [
+      "G0S2",
+      "8, 9"
+    ],
+    [
+      "PLTP",
+      "10"
+    ],
+    [
+      "TIMP1",
+      "11"
+    ],
+    [
+      "MT-CO1",
+      "13"
+    ],
+    [
+      "HSPA1A",
+      "14"
+    ],
+    [
+      "HSP90AA1",
+      "15"
+    ],
+    [
+      "CLU",
+      "17"
+    ],
+    [
+      "RGCC",
+      "18"
+    ]
+  ],
+  "shortLabel": "v2_cellbrowser",
+  "radius": 2,
+  "defColorField": "leiden_scVI",
+  "name": "v2_cellbrowser",
+  "firstBuildTime": "2024-10-27T23:06:43.179201",
+  "lastBuildTime": "2024-10-27T23:06:43.179214",
+  "md5": "57160d07f0"
+}

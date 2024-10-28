@@ -1,0 +1,17 @@
+{
+  "title": "Sample Dataset description",
+  "abstract": "Please edit desc.conf to change this text or comment out the \nabstract= line and create abstract.html in the same directory as desc.conf\n",
+  "methods": "\nPlease edit desc.conf to change this text or comment out the methods= line and create methods.html in the same directory as desc.conf\n",
+  "supplFiles": [
+    {
+      "label": "Scanpy H5AD",
+      "file": "v2_SC678_SC679_SC905_SC1186_integration.h5ad"
+    }
+  ],
+  "inDir": "",
+  "coordFiles": [
+    "UMAP.coords.tsv.gz",
+    "scVI.coords.tsv.gz"
+  ],
+  "matrixFile": "/home/zyu2632/public_html/cells/v2_cellbrowser/matrix.mtx.gz"
+}

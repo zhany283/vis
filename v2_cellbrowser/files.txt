@@ -1,0 +1,6 @@
+matrix.mtx.gz
+meta.tsv
+dataset.json
+desc.json
+UMAP.coords.tsv.gz
+scVI.coords.tsv.gz

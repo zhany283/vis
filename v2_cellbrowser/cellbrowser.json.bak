@@ -1,0 +1,38 @@
+{
+  "name": "v2_cellbrowser",
+  "shortLabel": "v2_cellbrowser",
+  "exprMatrix": "matrix.mtx.gz",
+  "meta": "v2_SC678_SC679_SC905_SC1186_integration-metadata.csv",
+  "geneIdType": "auto",
+  "defColorField": "leiden_scVI",
+  "labelField": "leiden_scVI",
+  "enumFields": [
+    "leiden_scVI"
+  ],
+  "coords": [
+    {
+      "file": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/umap_coords.tsv",
+      "shortLabel": "UMAP"
+    },
+    {
+      "file": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/scVI_coords.tsv",
+      "shortLabel": "scVI"
+    }
+  ],
+  "radius": 2,
+  "markers": [
+    {
+      "file": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/v2_SC678_SC679_SC905_SC1186_integration-markers.csv",
+      "shortLabel": "Cluster Markers"
+    }
+  ],
+  "quickGenesFile": "quickGenes.tsv",
+  "colors": {
+    "Type": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/v2_cellbrowser/Type_colors.tsv",
+    "Sample": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/v2_cellbrowser/Sample_colors.tsv",
+    "leiden_scVI": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/v2_cellbrowser/leiden_scVI_colors.tsv",
+    "leiden_scVI_2": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/v2_cellbrowser/leiden_scVI_2_colors.tsv"
+  },
+  "display_single_meta": true,
+  "inDir": ""
+}
