@@ -1,31 +1,31 @@
 {
   "fileVersions": {
     "inMeta": {
-      "fname": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/v2_SC678_SC679_SC905_SC1186_integration-metadata.csv",
+      "fname": "/v2_cellbrowser/v2_SC678_SC679_SC905_SC1186_integration-metadata.csv",
       "md5": "63d2272a87",
       "size": 9866853,
       "mtime": "2024-10-27 21:28:41"
     },
     "colors:Type": {
-      "fname": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/v2_cellbrowser/Type_colors.tsv",
+      "fname": "/v2_cellbrowser/v2_cellbrowser/Type_colors.tsv",
       "md5": "2559f94373",
       "size": 37,
       "mtime": "2024-10-27 21:28:40"
     },
     "colors:Sample": {
-      "fname": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/v2_cellbrowser/Sample_colors.tsv",
+      "fname": "/v2_cellbrowser/v2_cellbrowser/Sample_colors.tsv",
       "md5": "4cebca9fe0",
       "size": 779,
       "mtime": "2024-10-27 21:28:40"
     },
     "colors:leiden_scVI": {
-      "fname": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/v2_cellbrowser/leiden_scVI_colors.tsv",
+      "fname": "/v2_cellbrowser/leiden_scVI_colors.tsv",
       "md5": "ae0c6d7c15",
       "size": 210,
       "mtime": "2024-10-27 21:28:40"
     },
     "colors:leiden_scVI_2": {
-      "fname": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/v2_cellbrowser/leiden_scVI_2_colors.tsv",
+      "fname": "/v2_cellbrowser/leiden_scVI_2_colors.tsv",
       "md5": "ae0c6d7c15",
       "size": 210,
       "mtime": "2024-10-27 21:28:40"
@@ -37,19 +37,19 @@
       "mtime": "2024-10-28 04:06:29"
     },
     "inMatrix": {
-      "fname": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/matrix.mtx.gz",
+      "fname": "/v2_cellbrowser/matrix.mtx.gz",
       "md5": "78dc84a8a1",
       "size": 29798629,
       "mtime": "2024-10-27 21:28:39"
     },
     "barcodes": {
-      "fname": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/barcodes.tsv.gz",
+      "fname": "/v2_cellbrowser/barcodes.tsv.gz",
       "md5": "a2e2b58f2f",
       "size": 317145,
       "mtime": "2024-10-27 21:28:25"
     },
     "features": {
-      "fname": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/features.tsv.gz",
+      "fname": "/v2_cellbrowser/features.tsv.gz",
       "md5": "2dcf287815",
       "size": 7171,
       "mtime": "2024-10-27 21:28:25"
@@ -67,7 +67,7 @@
       "mtime": "2024-10-27 21:28:41"
     },
     "conf": {
-      "fname": "/home/zyu2632/cellbrowser_neulung/v2_cellbrowser/cellbrowser.conf",
+      "fname": "/v2_cellbrowser/cellbrowser.conf",
       "md5": "d17b65fc79",
       "size": 1456,
       "mtime": "2024-10-27 23:20:20"
